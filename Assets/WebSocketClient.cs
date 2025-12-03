@@ -8,7 +8,7 @@ public class WebSocketClient : MonoBehaviour {
 
     [Header("Configuració del WebSocket")]
     [SerializeField]
-    private string websocketUrl = "wss://echo.websocket.org"; 
+    private string websocketUrl = "ws://localhost:8080"; 
 
     [Header("Tests des de l'editor")]
     [SerializeField]
